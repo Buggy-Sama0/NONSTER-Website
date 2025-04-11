@@ -1,0 +1,76 @@
+.home {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.home-section1 {
+    background-image: url('../Components/assets/home-icon.jpg'); /* Add your hero image */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: cover;
+    color: white;
+    padding: 240px 0;
+    position: relative;
+}
+
+.home-section1 h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.home-section1 p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.home-section1 button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4977b0;
+    border-radius: 20px;
+    color: rgb(19, 16, 16);
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+.home-section1 h2, 
+.home-section1 p,
+.home-section1 button {
+
+    animation:fadeInUp 2.5s;
+}
+
+@keyframes fadeInUp {
+    0% {
+        
+        opacity:0;
+        transform:translateY(100px)
+    }
+
+    100% {
+        opacity:1;
+        transform:translateY(0px)
+    }
+    
+}
+
+
+
+.home-section2 h1 {
+    font-weight: 5000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 35px;
+    max-width: 1200px;
+    margin: 20px auto; 
+    animation: display 2s ease;
+    line-height: 1.8;
+}
+
+.home-section2 img {
+    padding:20px;
+}

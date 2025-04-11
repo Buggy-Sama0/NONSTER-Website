@@ -1,0 +1,86 @@
+html, body {
+    height: 50%; /* Ensures the body takes the full height */
+    margin: 0; /* Remove default margin */
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh; /* Ensures the container takes the full height of the viewport */
+}
+
+.content {
+    flex: 1; /* This allows the content area to grow and fill available space */
+}
+
+
+.footer {
+    background-color:#d8e3e4;
+    color:rgb(107, 138, 189);
+    padding:20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+
+.footer-links,
+.footer-social,
+.footer-newsletter {
+    margin: 10px;
+    font-size: 1.3em;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 5px 0;
+
+}
+
+.footer-links a,
+.footer-social a {
+    color: rgb(107, 138, 189);
+    text-decoration: none;
+    
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-newsletter input {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-newsletter button {
+    padding: 10px;
+    margin-left: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-newsletter button:hover {
+    background-color: #0056b3;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    font-size: 1.3em;
+}
